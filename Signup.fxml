@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignupControler">
+   <children>
+      <AnchorPane layoutX="241.0" layoutY="36.0" prefHeight="532.0" prefWidth="418.0" style="-fx-background-color: #ffffff; -fx-background-radius: 30; -fx-opacity: 0.8;">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="130.0" layoutY="7.0" prefHeight="34.0" prefWidth="158.0" style="-fx-border-width: 0px 0px 2px 0px; -fx-border-color: #1a591a;" text="SignUp" textFill="#1a591a" AnchorPane.topAnchor="7.0">
+               <font>
+                  <Font name="AveriaSans-Regular" size="25.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+            <Button layoutX="137.0" layoutY="410.0" mnemonicParsing="false" onAction="#signup" prefHeight="44.0" prefWidth="134.0" style="-fx-background-color: #1a591a; -fx-text-fill: white; -fx-font-size: 20; -fx-opacity: 0.9; -fx-background-radius: 30;" text="signup!" />
+            <Label layoutX="55.0" layoutY="90.0" style="-fx-text-fill: #1a591a;" text="first name:">
+               <font>
+                  <Font name="AveriaSans-Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="56.0" layoutY="332.0" style="-fx-text-fill: #1a591a;" text="password:">
+               <font>
+                  <Font name="AveriaSans-Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="55.0" layoutY="254.0" style="-fx-text-fill: #1a591a;" text="username:">
+               <font>
+                  <Font name="AveriaSans-Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="55.0" layoutY="171.0" style="-fx-text-fill: #1a591a;" text="last name:">
+               <font>
+                  <Font name="AveriaSans-Regular" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="firstName" layoutX="165.0" layoutY="89.0" prefHeight="27.0" prefWidth="222.0" style="-fx-border-width: 0px 0px 1px 0px; -fx-border-color: #1a591a; -fx-background-color: transparent;" />
+            <TextField fx:id="passWord" layoutX="165.0" layoutY="330.0" prefHeight="27.0" prefWidth="222.0" style="-fx-border-width: 0px 0px 1px 0px; -fx-border-color: #1a591a; -fx-background-color: transparent;" />
+            <TextField fx:id="userName" layoutX="163.0" layoutY="252.0" prefHeight="27.0" prefWidth="222.0" style="-fx-border-width: 0px 0px 1px 0px; -fx-border-color: #1a591a; -fx-background-color: transparent;" />
+            <TextField fx:id="lastName" layoutX="165.0" layoutY="168.0" prefHeight="27.0" prefWidth="222.0" style="-fx-border-width: 0px 0px 1px 0px; -fx-border-color: #1a591a; -fx-background-color: transparent;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

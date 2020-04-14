@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #c4d4ba;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainPageControler">
+   <children>
+      <Button layoutX="24.0" layoutY="105.0" mnemonicParsing="false" onAction="#userInfo" prefHeight="67.0" prefWidth="190.0" style="-fx-background-color: transparent; -fx-border-width: 2px 0px 2px 0px; -fx-border-color: #1a591a; -fx-text-fill: #1a591a;" text="User Info" textFill="#1a591a" AnchorPane.leftAnchor="0.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutY="232.0" mnemonicParsing="false" onAction="#goupInfo" prefHeight="67.0" prefWidth="190.0" style="-fx-background-color: transparent; -fx-border-width: 2px 0px 2px 0px; -fx-border-color: #1a591a; -fx-text-fill: #1a591a;" text="Group Info" textFill="#1a591a">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutY="351.0" mnemonicParsing="false" onAction="#joinGroup" prefHeight="67.0" prefWidth="190.0" style="-fx-background-color: transparent; -fx-border-width: 2px 0px 2px 0px; -fx-border-color: #1a591a; -fx-text-fill: #1a591a;" text="Join a Group" textFill="#1a591a">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutY="470.0" mnemonicParsing="false" onAction="#addNewGroup" prefHeight="67.0" prefWidth="190.0" style="-fx-background-color: transparent; -fx-border-width: 2px 0px 2px 0px; -fx-border-color: #1a591a; -fx-text-fill: #1a591a;" text="make a new group" textFill="#1a591a">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label style="-fx-border-color: #1a591a; -fx-border-width: 0px 0px 2px 0px; -fx-label-padding: 5px;" text=" Home Page" textFill="#1a591a" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="AveriaSans-Regular" size="35.0" />
+         </font>
+      </Label>
+      <Line endX="-92.80000305175781" endY="534.0" layoutX="283.0" layoutY="67.0" startX="-92.80000305175781" startY="-12.399993896484375" stroke="#1a591a" strokeWidth="2.0" />
+   </children>
+</AnchorPane>
